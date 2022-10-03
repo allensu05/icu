@@ -1446,7 +1446,7 @@ CjkBreakEngine::divideUpDictionaryRange( UText *inText,
             correctedNumBreaks--;
         }
     }
-
+    int32_t a = 0;
     // inString goes out of scope
     // inputMap goes out of scope
     return correctedNumBreaks;
